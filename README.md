@@ -1,7 +1,7 @@
-# Unit Review: Vending Machine Project
+# Unit Review:Photo Gallery Project
 
 ## Project Description
-In this mini-project, you will use you knowledge of conditional statements to build a vending machine app.
+In this mini-project, you will use your knowledge of arrays and loops to build a photo gallery.
 
 Follow the steps below to make your very own site! 
 Make sure to check off your items as you complete them. [ ] => [x]
@@ -9,17 +9,19 @@ Make sure to check off your items as you complete them. [ ] => [x]
 ## Day 1
 
 ### Set-Up
-- [x] Go to the repository at https://github.com/itscodenation/vending-machine-starter
+- [x] Go to the repository at https://github.com/itscodenation/photo-gallery-starter/
 - [x] Fork this repository to your Github account and pull it down to Glitch.
 - [x] Add, commit, and push your changes.
 
+### HTML and CSS
+- [x] Update your HTML and CSS depending on your theme.
+
 ### JavaScript
-- [x] Declare variables to track money and the number of each snack item.
-- [x] Write a conditional statement for each user selection
-- [x] The webpage displays the user purchase and their remaining cash.
-- [x] The webpage should accurately keep track of the money that is spent and what money is leftover
-- [x] The webpage accurately displays the the # of items purchased
-- [x] The webpage prohibits users from purchasing items that they can't afford.
+- [x] Declare a variable that will hold your pictures.
+- [x] Use a loop to append the images from your array to the gallery.
+- [x] When the user clicks the button the gallery should be emptied. Hint: Check out the .empty() method;
+- [x] Write the code that will push any new images the user inputs to the array of pictures.
+- [x] Write the code that will display both old and new images on the page.
 
 
 ### Wrap
@@ -27,12 +29,7 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [x] Save and submit your website link using the link on the session agenda.
 
 ### Project Extensions
-- [ ] Add additional items to purchase
-- [ ] A way to add more money to your total
-- [ ] A way to get a refund
-- [ ] Add clickable images for your items
-- [ ] Better error messages
-- [ ] Make a button to refund all your purchased items
-- [ ] Secret commands!
-- [ ] Style your vending machine with CSS
-- [ ] Add a message to calculate what you can afford based on how much money you have
+- [ ] Add a caption or name under each image
+- [ ] Clear the input fields after the new information is added
+- [ ] Show an error message if the user didn't enter a name or a picture
+- [ ] When a user interacts with an image something should happen
