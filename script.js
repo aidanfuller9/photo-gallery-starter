@@ -1,19 +1,21 @@
-    var money = 10.00;
-    var cokes = 0;
-    var chips = 0;
+let foodPictures = [
+  "https://images.unsplash.com/photo-1534790566855-4cb788d389ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  "https://images.unsplash.com/photo-1564767655658-4e6b365884ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+  "https://images.unsplash.com/photo-1572455021453-7d0b208ae250?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1013&q=80",
+  
+];
 
-    $(".buy").click(function() {
-        var item = $("input").val();
-        if (item === "coke" && money > 1.5) {
-            money = money - 1.5;
-            cokes = cokes + 1;
-            $(".message").html("I bought a coke for $1.50");
-        } else if (item === "chips" && money > 1.25) {
-            money = money - 1.25;
-            chips = chips + 1;
-            $(".message").html("I bought chips for $1.25");
-        } else {
-            $(".message").html("You can't buy that.");
-        }
-        $("#money").html("I have $" + money);
-    });
+
+for (let pictures of foodPictures) {
+  $(".gallery").append("<img src=" + pictures + ">");
+}
+
+$(".add").click(function() {
+  $(".gallery").empty();
+  let newPictureUrl = $(".picture-url").val();
+  foodPictures.push(newPictureUrl);
+  for (let pictures of foodPictures) {
+  $(".gallery").append("<img src=" + pictures + ">");
+}
+});
+
