@@ -33,3 +33,7 @@ Make sure to check off your items as you complete them. [ ] => [x]
 - [ ] Clear the input fields after the new information is added
 - [ ] Show an error message if the user didn't enter a name or a picture
 - [ ] When a user interacts with an image something should happen
+
+## Hint
+You'll need the array method .push to complete this project. How can you find more information about it?
+
