@@ -10,7 +10,7 @@ Make sure to check off your items as you complete them. [ ] => [x]
 
 ### Set-Up
 - [x] Go to the repository at https://github.com/itscodenation/photo-gallery-starter/
-- [ ] Fork this repository to your Github account and pull it down to Glitch.
+- [x] Fork this repository to your Github account and pull it down to Glitch.
 - [ ] Add, commit, and push your changes.
 
 ### HTML and CSS
